@@ -1,10 +1,8 @@
-# Servicio de lectura de fuentes rss sobre docker Tiny Tiny Rss
+# Servicio de lectura de fuentes sobre docker Tiny Tiny Rss
 
-Contenedor docker con tiny tiny rss en su ultima version sobre alpine
+Contenedor docker con tiny tiny rss en su ultima version sobre alpine.
 
-## Contenedor Al para Moodle
-
-Este Contenedor se basa en una imagen es creada desde un Dockerfile descargado de:
+Este contenedor se basa en una imagen descargada de:
 
 <https://hub.docker.com/r/x86dev/docker-ttrss>
 
@@ -15,7 +13,7 @@ mkdir /opt/docker/
 cd /opt/docker
 ```
 
-## Crear la imagen de Alpine
+## Crear la imagen de Alpine para tiny
 
 No es necesaria crear la imagen, ya que el repositorio de docker esta subida.  
 
@@ -38,7 +36,7 @@ cd /opt/docker/tinyrss/imagen
 docker build -t x86dev/docker-ttrss .
 ```
 
-## Crear el contenedor de moodle
+## Crear el contenedor de tiny
 
 Creamos los contenedores:
 
