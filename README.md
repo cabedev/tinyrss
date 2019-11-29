@@ -72,7 +72,7 @@ Lo instalamos especificando los datos según la base de datos y usarios creados 
 - Host name: "mysql" (nombre del servidor de base de datos segun docker-compose.yml)
 - Port: "3306" (puerto de la base de datos segun docker-compose.yml)
 
-Seguimos la indicaciones de "test", "inicación" de la base de datos y creación del fichero de configuración.
+Seguimos la indicaciones de "Test configuration", "Initialize database" de la base de datos y creación del fichero de configuración con "Save configuration".
 
 ## Acceso a Tiny Tiny Rss
 
