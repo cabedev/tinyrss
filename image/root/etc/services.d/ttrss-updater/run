@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv sh
+sleep 24h
+exec s6-setuidgid www-data /srv/update-ttrss.sh --wait-exit 24h
