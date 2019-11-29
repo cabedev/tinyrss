@@ -1,6 +1,6 @@
 version: '3.2'
 services:
-  moodle:
+  tiny:
     image: x86dev/docker-ttrss:latest
     restart: always
     ports:
