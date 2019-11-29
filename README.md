@@ -32,7 +32,7 @@ mkdir /opt/docker/tinyrss/volumes
 Creamos el contenedor:
 
 ```bash
-cd /opt/docker/tinyrss/imagen
+cd /opt/docker/tinyrss/image
 docker build -t x86dev/docker-ttrss .
 ```
 
@@ -71,6 +71,8 @@ Lo instalamos especificando los datos según la base de datos y usarios creados 
 - Database name: "ttrssdb" (nombre de la base de datos creada en phpmyadmin)
 - Host name: "mysql" (nombre del servidor de base de datos segun docker-compose.yml)
 - Port: "3306" (puerto de la base de datos segun docker-compose.yml)
+
+Seguimos la indicaciones de "test", "inicación" de la base de datos y creación del fichero de configuración.
 
 ## Acceso a Tiny Tiny Rss
 
